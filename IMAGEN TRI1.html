@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Diseño Web - Trimestre 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        :root {
+            --verde: #27ae60;
+            --gris-oscuro: #2c3e50;
+            --fondo: #f4f9ff;
+            --borde-suave: rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--fondo);
+            margin: 0;
+            padding: 0 5%;
+            color: #333;
+        }
+
+        h1 {
+            color: var(--verde);
+            font-size: 2.5em;
+            margin-top: 30px;
+        }
+
+        .contenido {
+            margin-bottom: 60px;
+        }
+
+        .subtitulo {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: var(--gris-oscuro);
+            margin: 40px 0 10px;
+            border-left: 5px solid var(--verde);
+            padding-left: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.7;
+            margin: 12px 0;
+            max-width: 900px;
+        }
+
+        strong {
+            color: #000;
+        }
+
+        .contenedor-imagen {
+            max-width: 700px;
+            margin: 30px auto;
+            text-align: center;
+        }
+
+        .contenedor-imagen img {
+            max-width: 100%;
+            border-radius: 16px;
+            box-shadow: 0 6px 20px var(--borde-suave);
+        }
+
+        iframe {
+            width: 100%;
+            height: 315px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px var(--borde-suave);
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 10px 20px;
+            background-color: var(--verde);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #219150;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .subtitulo {
+                font-size: 1.1em;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Diseño Web - Trimestre 1</h1>
+
+    <div class="contenido">
+        <p class="subtitulo">¿Qué es un hosting?</p>
+        <p>El <strong>hosting</strong> (alojamiento web) es un servicio que permite almacenar y publicar sitios web en internet. Funciona como el espacio donde se guardan los archivos, imágenes, videos, bases de datos y otros elementos necesarios para que una página funcione y esté disponible las 24 horas del día.</p>
+
+        <p class="subtitulo">Tipos de hosting</p>
+        <p><strong>Hosting compartido:</strong> Varios sitios web comparten un mismo servidor. Es económico y fácil de usar, ideal para páginas pequeñas o personales.</p>
+        <p><strong>VPS (Servidor Privado Virtual):</strong> Ofrece más recursos y control que el compartido, ya que el servidor se divide virtualmente para cada usuario.</p>
+        <p><strong>Hosting dedicado:</strong> Todo el servidor es para un solo cliente. Tiene alto rendimiento, pero es más costoso y requiere conocimientos técnicos.</p>
+        <p><strong>Hosting en la nube (cloud hosting):</strong> Utiliza varios servidores interconectados, ofreciendo alta disponibilidad, escalabilidad y seguridad.</p>
+        <p><strong>Hosting gratuito:</strong> No tiene costo, pero suele tener muchas limitaciones y publicidad. Sirve para pruebas o proyectos muy simples.</p>
+
+        <p class="subtitulo">Características importantes</p>
+        <p><strong>Espacio en disco:</strong> Capacidad para guardar archivos.<br>
+        <strong>Ancho de banda:</strong> Cantidad de datos que puede transferir.<br>
+        <strong>Soporte técnico:</strong> Ayuda del proveedor en caso de fallos.<br>
+        <strong>Seguridad:</strong> Protección contra ataques y pérdidas de datos.<br>
+        <strong>Panel de control:</strong> Herramienta para gestionar el sitio (como cPanel).</p>
+
+        <p class="subtitulo">Ejemplos de proveedores de hosting</p>
+        <p>Hostinger, GoDaddy, Bluehost, SiteGround, Google Cloud, AWS, Microsoft Azure.</p>
+
+        <p class="subtitulo">Importancia del hosting</p>
+        <p>Un buen servicio de hosting garantiza que una página web funcione de forma rápida, segura y estable, lo cual es clave para la experiencia del usuario y el posicionamiento en buscadores (SEO).</p>
+
+        <div class="contenedor-imagen">
+            <img src="C:\Users\angel\Downloads\descarga (4).jpeg" alt="Ejemplo de Imagen">
+        </div>
+    </div>
+
+    <div class="contenido">
+        <p class="subtitulo">Segunda clase: GitHub</p>
+        <p><strong>GitHub</strong> ¿Qué es GitHub?<br>
+        GitHub es una plataforma en línea que permite almacenar, gestionar y colaborar en proyectos de programación usando Git, un sistema de control de versiones.</p>
+
+        <p>Fue creada en 2008 y en 2018 fue adquirida por Microsoft. Hoy en día es una de las herramientas más usadas por desarrolladores, empresas y estudiantes para trabajar en proyectos de software de manera colaborativa.</p>
+
+        <p><strong>¿Qué es Git?</strong><br>
+        Git es un sistema de control de versiones desarrollado por Linus Torvalds (el creador de Linux). Permite llevar un registro de todos los cambios que se hacen en los archivos de un proyecto, facilitando el trabajo en equipo y la recuperación de versiones anteriores.</p>
+
+        <p><strong>¿Para qué sirve GitHub?</strong><br>
+        Guardar código en la nube.<br>
+        Controlar versiones del proyecto.<br>
+        Colaborar con otros programadores.<br>
+        Revisar, comentar y mejorar el código.<br>
+        Compartir proyectos públicamente o mantenerlos privados.</p>
+
+        <p><strong>Principales funciones de GitHub</strong><br>
+        Repositorios (repositories): Son como carpetas donde se guarda todo el código y documentación del proyecto.<br>
+        Commits: Son registros de cambios guardados en el repositorio.<br>
+        Branches (ramas): Permiten trabajar en versiones paralelas del código sin afectar la principal.<br>
+        Pull requests: Sirven para proponer cambios y discutirlos antes de integrarlos.<br>
+        Issues: Herramientas para reportar errores o sugerir mejoras.<br>
+        GitHub Pages: Permite publicar páginas web directamente desde un repositorio.</p>
+
+        <p><strong>Ventajas de GitHub</strong><br>
+        Trabajo colaborativo desde cualquier parte del mundo.<br>
+        Historial completo de cambios.<br>
+        Facilita el aprendizaje del trabajo en equipo en desarrollo de software.<br>
+        Integración con herramientas como VS Code, Slack, Trello, etc.<br>
+        Uso gratuito para proyectos públicos y privados limitados.</p>
+
+        <p><strong>Ejemplos de uso</strong><br>
+        Equipos de desarrollo creando aplicaciones web, móviles o de escritorio.<br>
+        Estudiantes subiendo proyectos escolares.<br>
+        Empresas gestionando código privado con equipos grandes.<br>
+        Publicación de portafolios profesionales en GitHub Pages.</p>
+
+        <p><strong>Importancia de GitHub</strong><br>
+        GitHub es hoy una herramienta esencial en la industria del software, no solo para almacenar código, sino para gestionar todo el proceso de desarrollo de un proyecto. También es muy útil para construir un perfil profesional como programador, ya que permite mostrar habilidades y experiencia públicamente.</p>
+
+        <div class="contenedor-imagen">
+            <iframe src="https://www.youtube.com/embed/sLTNgxxSBR4"
+                title="Video explicativo sobre GitHub" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <p>Esta es una plataforma colaborativa usada ampliamente en el desarrollo web y de software.</p>
+    </div>
+
+    <a href="D:\ELPEPE.html">Volver al menú principal</a>
+
+</body>
+</html>
